@@ -19,7 +19,7 @@ ___
 -- Basic usage example
 -- github.com/XeSoftworks/luahook
 
-local LuaEncode = require(script.LuaEncode)
+local luahook = require(script.hook)
 
 local SomeTable = {
     foo = "bar",
@@ -36,14 +36,14 @@ local SomeTable = {
     },
 }
 
-local Encoded = LuaEncode({
+local ser = luahook({
     Table = SomeTable,
     FunctionsReturnRaw = true, -- `false` by default
     PrettyPrint = true, -- `false` by default
     IndentCount = 4, -- `0` by default
 })
 
-print(Encoded)
+print(ser)
 ```
 
 Expected Output:
