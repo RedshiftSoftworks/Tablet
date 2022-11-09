@@ -4,18 +4,12 @@
 </div>
 
 # luahook
-Framework for Serialization of Lua Metatables in Lua 5.1+
+Framework for Serialization of Lua Tables/Metatables in Lua 5.1+
 
 ___
 
 ## About & Features
 This is a simple utility function developers can use for **serialization** of [Lua](https://lua.org) tables/data-structures. This script natively supports Lua 5.1+.
-
-### Features:
-- Full serialization and output of basic types `number`, `string`, `table`, `boolean`, and `nil` for keys/values.
-- "Pretty Printing" & custom indentation config.
-- **(Currently Unimplemented)** `typeof()` support for custom Roblox datatypes such as `Instance`, `UDim`, `Vector`, `DateTime`, etc..
-- Raw key/value set with `FunctionsReturnRaw`. (See API below for more info)
 
 ___
 
